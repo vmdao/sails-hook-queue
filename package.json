@@ -1,0 +1,55 @@
+{
+  "name": "sails-hook-queue",
+  "version": "0.0.1",
+  "description": "Queue in Sails. Power by Kue. Thank you lykmapipo. I referral it",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vmdao/sails-hook-queue.git"
+  },
+  "author": "vmdao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmdao/sails-hook-queue/issues"
+  },
+  "homepage": "https://github.com/vmdao/sails-hook-queue",
+  "contributors": [
+    {
+      "name": "vmdao",
+      "github": "https://github.com/vmdao"
+    }
+  ],
+  "keywords": [
+    "sails",
+    "hook-sails",
+    "queue",
+    "kue",
+    "subscriber",
+    "consumer",
+    "workers",
+    "redis",
+    "hook"
+  ],
+  "sails": {
+    "isHook": true
+  },
+  "dependencies": {
+    "include-all": "^1.0.0",
+    "kue": "^0.11.5",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "faker": "^2.1.5",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-mocha-test": "^0.12.7",
+    "jshint-stylish": "^1.0.2",
+    "mocha": "^2.5.3",
+    "sails": "^0.12.13",
+    "sails-disk": "^0.10.10"
+  }
+}
